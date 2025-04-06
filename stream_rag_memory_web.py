@@ -7,7 +7,7 @@ from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.output_parsers import StrOutputParser
-from langchain_core.messages import MessagesPlaceholder 
+from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 __import__('pysqlite3')
 import sys
