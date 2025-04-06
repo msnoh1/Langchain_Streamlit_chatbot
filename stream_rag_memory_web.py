@@ -18,7 +18,7 @@ from langchain_chroma import Chroma
 
 
 #오픈AI API 키 설정
-os.environ["OPENAI_API_KEY"] = st.secrets["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"]
+os.environ["OPENAI_API_KEY"] = st.secrets["OPEN_API_KEY"]
 
 #cache_resource로 한번 실행한 결과 캐싱해두기
 @st.cache_resource
